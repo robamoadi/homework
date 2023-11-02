@@ -1,0 +1,39 @@
+div {
+    margin: 50px;
+}
+.div1 {
+    background-color: yellow;
+    height: 250px;
+    width: 150px;
+    border: solid black;
+    text-align: center;
+    float: left;
+}
+
+.div2{
+    background-color: yellow;
+    height: 250px;
+    width: 150px;
+    border:solid black;
+    text-align: center;
+    float: left;
+}
+
+
+
+.div3 {
+    background-color: yellow;
+    height: 250px;
+    width: 150px;
+    border: solid black;
+    float: left;
+    
+}
+
+.list{
+    border: solid red;
+    background-color: blue;
+    margin-top: 0px ;
+    justify-content: center;
+
+}

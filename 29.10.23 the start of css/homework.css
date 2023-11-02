@@ -1,0 +1,23 @@
+div{
+    background-color: rgb(228, 69, 69);
+    color: rgb(226, 214, 45);
+    margin-top: -25px ;
+    margin-bottom: -16px;
+}
+
+h1{
+    color: green;
+    background-color: lightblue; 
+    margin-top: 0px;
+}
+h1:hover{
+    color: black;
+    background-color: yellow;
+}
+body{
+    border-top: 3px dashed red;
+    border-left: 3px dashed purple;
+    border-right: 3px dashed green;
+    border-bottom: 3px dashed blue;
+    
+}

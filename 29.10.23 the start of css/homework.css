@@ -1,4 +1,13 @@
-div{
+div.main{
+    border-bottom: 2px dashed blue;
+    border-top: 2px dashed red;
+    border-left: 2px dashed purple;
+    border-right: 2px dashed green;
+    width: 50%;
+    padding: 1px;
+}
+
+div.body{
     background-color: rgb(228, 69, 69);
     color: rgb(226, 214, 45);
     margin-top: -25px ;
@@ -13,11 +22,4 @@ h1{
 h1:hover{
     color: black;
     background-color: yellow;
-}
-body{
-    border-top: 3px dashed red;
-    border-left: 3px dashed purple;
-    border-right: 3px dashed green;
-    border-bottom: 3px dashed blue;
-    
 }

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <h3 class="text-success m-2">Create New Account</h3>
+    <form action="/action_page.php" >
+        <div class="mb-3 mt-3 me-5 ms-2">
+            <label for="formfirsnameinput" class="form-label">First Name:</label>
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name" required>
+        </div>
+        <div class="mb-3 mt3 me-5 ms-2">
+            <label for="fformlastname" class="form-label">Last Name:</label>
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
+        </div>
+        <p class="m-2">How do you know about us?</p>
+        <div class="form-check ms-3">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="friend">
+              Friend
+            </label>
+          </div>
+          <div class="form-check ms-3">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="facebook">
+              Facebook
+            </label>
+          </div>
+          <div class="form-check ms-3">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="other">
+              Other
+            </label>
+          </div>
+          <div class="mb-3 ms-2 mt-3 me-5">
+            <label for="pwd" class="form-label">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+            <div class="col-auto">
+                <span id="passwordHelpInline" class="form-text">
+                  Must be 8-20 characters long.
+                </span>
+              </div>
+            </div>
+            <div class="mt-3 me-5 mb-3 ms-2">
+          <label for="sel1" class="form-label">Choose a question to reset your password</label>
+          <select class="form-select me-5" id="sel1" name="sellist1" required>
+            <option>Coose a question</option>
+            <option>your grandmather name</option>
+            <option>your favorite city</option>
+          </select>
+        </div>
+        <div class="mb-3 mt-3 me-5 ms-2">
+            <label for="formfirsnameinput" class="form-label">Response:</label>
+            <input type="text" class="form-control" placeholder="response" aria-label="response" required>
+        </div>
+        <div class="mb-3 mt-3 me-5 ms-2">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            <div class="col-auto">
+                <span id="phraseHelpInline" class="form-text">
+                  we'll share your email with anyone else.
+                </span>
+              </div>
+          </div>
+          <div class="mb-3 mt-3 me-5 ms-2">
+            <label for="formFile" class="form-label">Send picture for your profile:</label>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Choose picture">
+                <span class="input-group-text">browse</span>
+              </div>
+        <div class="form-check mb-3 mt-3 ms-2">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember" required> I agree to the policy
+            </label>
+          </div>
+          <div class="form-check mb-3 ms-2">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember">Send me all the news
+            </label>
+          </div>
+          <button type="submit" class="btn btn-outline-success ms-3">Submit</button>
+    </form>
+    
+    
+</body>
+</html>
